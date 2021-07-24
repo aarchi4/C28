@@ -18,6 +18,9 @@ class SlingShot{
             line(pointA.x, pointA.y, pointB.x, pointB.y);
         
     }
+     fly(){
+        this.SlingShot.bodyA = null
+     }
     
 }
 
